@@ -12,6 +12,10 @@
 
 /*! ../../../service */
 
+/*! ../../../storage */
+
+/*! ../../../utils/duplicate-label */
+
 /*! ../../../utils/filter-by-search */
 
 /*! ../../../utils/unlink-variable */
@@ -74,9 +78,13 @@
 
 /*! ../missing-variable-alert */
 
+/*! ../prop-types */
+
 /*! ../prop-types/color-variable-prop-type */
 
 /*! ../service */
+
+/*! ../storage */
 
 /*! ../style-variables-repository */
 
@@ -98,6 +106,8 @@
 
 /*! ../utils/filter-by-search */
 
+/*! ../utils/size-value */
+
 /*! ../utils/tracking */
 
 /*! ../utils/validations */
@@ -111,6 +121,8 @@
 /*! ./api */
 
 /*! ./batch-operations */
+
+/*! ./color-variable-prop-type */
 
 /*! ./components/fields/color-field */
 
@@ -134,7 +146,11 @@
 
 /*! ./create-variable-type-registry */
 
+/*! ./custom-size-variable-prop-type */
+
 /*! ./fields/label-field */
+
+/*! ./font-variable-prop-type */
 
 /*! ./hooks/use-auto-edit */
 
@@ -154,6 +170,8 @@
 
 /*! ./mcp/variables-resource */
 
+/*! ./prop-types */
+
 /*! ./prop-types/color-variable-prop-type */
 
 /*! ./prop-types/font-variable-prop-type */
@@ -167,6 +185,8 @@
 /*! ./repeater-injections */
 
 /*! ./service */
+
+/*! ./size-variable-prop-type */
 
 /*! ./storage */
 
@@ -199,6 +219,8 @@
 /*! ./utils/llm-propvalue-label-resolver */
 
 /*! ./utils/resolve-css-variable */
+
+/*! ./validations */
 
 /*! ./variable-creation */
 
@@ -360,6 +382,14 @@
   !*** ./packages/packages/core/editor-variables/src/batch-operations.ts ***!
   \*************************************************************************/
 
+/*!*************************************************************************!*\
+  !*** ./packages/packages/core/editor-variables/src/prop-types/index.ts ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./packages/packages/core/editor-variables/src/utils/size-value.ts ***!
+  \*************************************************************************/
+
 /*!**************************************************************************!*\
   !*** ./packages/packages/core/editor-variables/src/utils/validations.ts ***!
   \**************************************************************************/
@@ -370,6 +400,10 @@
 
 /*!******************************************************************************!*\
   !*** ./packages/packages/core/editor-variables/src/hooks/use-permissions.ts ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./packages/packages/core/editor-variables/src/utils/duplicate-label.ts ***!
   \******************************************************************************/
 
 /*!******************************************************************************!*\
@@ -586,6 +620,10 @@
 
 /*!**************************************************************************************************!*\
   !*** ./packages/packages/core/editor-variables/src/components/ui/variable/mismatch-variable.tsx ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./packages/packages/core/editor-variables/src/prop-types/custom-size-variable-prop-type.ts ***!
   \**************************************************************************************************/
 
 /*!**************************************************************************************************!*\
