@@ -12,7 +12,7 @@
 	<atom:link href="/dablog-website/feed" rel="self" type="application/rss+xml" />
 	<link>/dablog-website/</link>
 	<description>.... information for a beginner network engineering</description>
-	<lastBuildDate>Wed, 13 May 2026 19:23:19 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 May 2026 22:23:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,59 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>My WordPress Blog, Simple CI/CD Project</title>
+		<link>/dablog-website/my-wordpress-blog-simple-ci-cd-project</link>
+		
+		<dc:creator><![CDATA[daniel]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 22:12:12 +0000</pubDate>
+				<category><![CDATA[Beginning-in-Networking]]></category>
+		<guid isPermaLink="false">/dablog-website/?p=1619</guid>
+
+					<description><![CDATA[I discovered that there is a better free host for my blog. My AWS EC2 free tier is close to expiring, hence I had to make a practical decision, keep hosting my WordPress blog in the cloud and risk new charges on my card, or I could rethink the entire setup. Since this is a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=%2Fdablog-website%2Fmy-wordpress-blog-simple-ci-cd-project&amp;linkname=My%20WordPress%20Blog%2C%20Simple%20CI%2FCD%20Project" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Fdablog-website%2Fmy-wordpress-blog-simple-ci-cd-project&amp;linkname=My%20WordPress%20Blog%2C%20Simple%20CI%2FCD%20Project" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_x" href="https://www.addtoany.com/add_to/x?linkurl=%2Fdablog-website%2Fmy-wordpress-blog-simple-ci-cd-project&amp;linkname=My%20WordPress%20Blog%2C%20Simple%20CI%2FCD%20Project" title="X" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=%2Fdablog-website%2Fmy-wordpress-blog-simple-ci-cd-project&amp;linkname=My%20WordPress%20Blog%2C%20Simple%20CI%2FCD%20Project" title="Reddit" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=%2Fdablog-website%2Fmy-wordpress-blog-simple-ci-cd-project&#038;title=My%20WordPress%20Blog%2C%20Simple%20CI%2FCD%20Project" data-a2a-url="/dablog-website/my-wordpress-blog-simple-ci-cd-project" data-a2a-title="My WordPress Blog, Simple CI/CD Project"></a></p>
+<p style="font-size:15px">I discovered that there is a better free host for my blog. My AWS EC2 free tier is close to expiring, hence I had to make a practical decision, keep hosting my WordPress blog in the cloud and risk new charges on my card, or I could rethink the entire setup. Since this is a personal technical blog, I did not want to keep paying for a server that mostly serves articles, images, and static page.</p>
+
+
+
+<p style="font-size:15px">So I moved my WordPress environment from AWS to a hardware server hosted at home. But I don&#8217;t want public connections in any capacity coming to my home network. I had to make a change.</p>
+
+
+
+<p style="font-size:15px">The idea was simple: WordPress would no longer be my public production website. Instead, it became my private development and writing environment. I use it to write, edit, preview, and manage my blog posts. After publishing or updating an article, I use a WordPress plugin called <strong>Staatic</strong> to convert the entire site into static files. Those static files are then copied into my GitHub repository once a day and pushed to GitHub Pages, where the public version of the blog is hosted for free.</p>
+
+
+
+<p style="font-size:15px">This gave me a simple CI/CD-style workflow. In normal software development or DevOps, CI/CD means changes are built, tested, and delivered automatically or semi-automatically. In my case, the “change” is a new article or an edited blog post. The “build” step is Staatic converting WordPress into static HTML, CSS, JavaScript, and image files. The “delivery” step is pushing those files to GitHub, where GitHub Pages publishes the updated site.</p>
+
+
+
+<p style="font-size:15px">The biggest benefit is cost control. I no longer need a cloud-hosted WordPress server running all the time just to serve blog posts. My home server is used for development, while GitHub Pages handles the public hosting.</p>
+
+
+
+<p style="font-size:15px">There is also a security benefit. A normal public WordPress site exposes the login page, admin area, PHP processing, database connection, plugins, and themes to the internet. With this setup, visitors only see the static version of the site. The public website does not need WordPress, PHP, or MySQL to run.</p>
+
+
+
+<p style="font-size:15px">This setup also helped me implement real infrastructure and DevOps decisions in a practical way. It touches local hosting, static site generation, GitHub version control, deployment, cost optimization, and environment separation. WordPress is my content management system, Staatic is my build tool, GitHub is my version control platform, and GitHub Pages is my deployment target.</p>
+
+
+
+<p style="font-size:15px">It is not perfect. Features that depend on live WordPress, such as native comments, dynamic search, contact forms, or user login, may not work the same way after static conversion. But for a technical blog, this trade-off is acceptable.</p>
+
+
+
+<p style="font-size:15px">In the future, I can improve the process by automating the daily copy and push process. For now, it is simple, free, and reliable enough for my needs.</p>
+
+
+
+<p style="font-size:15px">This project reminded me that good engineering is not always about using the most expensive platform, it about doing the most efficient process that efficiently meets the need!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Compare TCP to UDP</title>
 		<link>/dablog-website/compare-tcp-to-udp</link>
 		
