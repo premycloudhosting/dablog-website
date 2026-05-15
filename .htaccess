@@ -32,19 +32,11 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/json; charset=UTF-8"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
-  ForceType "application/font-sfnt"
-</If>
-
 <If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\-index\.xsl#i">
-  ForceType "application/xml; charset=UTF-8"
-</If>
-
-<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
@@ -56,15 +48,19 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-brands\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
   ForceType "application/font-sfnt"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\-index\.xsl#i">
+  ForceType "application/xml; charset=UTF-8"
 </If>
 
 <If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-regular\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-brands\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
@@ -72,10 +68,10 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/simple\-line\-icons/Simple\-Line\-Icons\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\.xsl#i">
-  ForceType "application/xml; charset=UTF-8"
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/simple\-line\-icons/Simple\-Line\-Icons\.ttf#i">
+  ForceType "application/font-sfnt"
 </If>
