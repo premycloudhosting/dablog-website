@@ -1,77 +1,81 @@
-ErrorDocument 404 /dablog-website/404_not_found/index.html
+ErrorDocument 404 /404_not_found/index.html
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/eicons/fonts/eicons\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/eicons/fonts/eicons\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/font\-awesome/fonts/fontawesome\-webfont\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/font\-awesome/fonts/fontawesome\-webfont\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/font\-awesome/fonts/FontAwesome\.otf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/font\-awesome/fonts/FontAwesome\.otf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/feed#i">
+<If "%{REQUEST_URI} =~ m#^/feed#i">
   ForceType "application/rss+xml; charset=UTF-8"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-sitemap\-index\.xsl#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-json/#i">
+  ForceType "application/json; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
+  ForceType "application/font-sfnt"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
+  ForceType "application/font-sfnt"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\-index\.xsl#i">
   ForceType "application/xml; charset=UTF-8"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-v4compatibility\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-v4compatibility\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/the\-post\-grid/assets/vendor/flaticon/flaticon_the_post_grid\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/flaticon/flaticon_the_post_grid\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-brands\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-regular\-400\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-regular\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-solid\-900\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-brands\-400\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/simple\-line\-icons/Simple\-Line\-Icons\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-solid\-900\.ttf#i">
-  ForceType "application/font-sfnt"
-</If>
-
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-content/themes/oceanwp/assets/fonts/simple\-line\-icons/Simple\-Line\-Icons\.ttf#i">
-  ForceType "application/font-sfnt"
-</If>
-
-<If "%{REQUEST_URI} =~ m#^/dablog\-website/wp\-sitemap\.xsl#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\.xsl#i">
   ForceType "application/xml; charset=UTF-8"
 </If>
