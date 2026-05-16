@@ -339,3 +339,5 @@ __( 'Fixed', 'elementor' );
 __( 'Scroll', 'elementor' );
 __( 'Attachment', 'elementor' );
 
+
+

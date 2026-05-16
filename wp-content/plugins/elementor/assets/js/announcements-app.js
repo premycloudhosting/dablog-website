@@ -2967,3 +2967,5 @@ new AnnouncementIndex();
 ;
 //# sourceMappingURL=announcements-app.js.map
 
+
+

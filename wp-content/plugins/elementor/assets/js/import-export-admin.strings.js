@@ -213,3 +213,5 @@ __( 'Type name here...', 'elementor' );
 __( 'Description (Optional)', 'elementor' );
 __( 'Type description here...', 'elementor' );
 
+
+

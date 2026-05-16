@@ -5,3 +5,5 @@ __( 'With Notes, teamwork gets even better. Stay in sync with comments, feedback
 __( 'Connect & Activate', 'elementor' );
 __( 'Upgrade', 'elementor' );
 
+
+

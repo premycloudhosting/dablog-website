@@ -27,3 +27,5 @@ __( 'Clear', 'elementor' );
 __( 'Color Picker', 'elementor' );
 __( 'Create New Global Color', 'elementor' );
 
+
+

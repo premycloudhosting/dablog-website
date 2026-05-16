@@ -27,3 +27,5 @@ __( 'New Floating Elements', 'elementor' );
 __( 'Sign Up', 'elementor' );
 __( 'Don\'t Show Again', 'elementor' );
 
+
+

@@ -448,3 +448,5 @@ __( 'Remove', 'elementor' );
 __( 'Youâ€™ve got the power.', 'elementor' );
 __( 'Craft your prompt to affect content, images and/or colors - whichever you decide.', 'elementor' );
 
+
+

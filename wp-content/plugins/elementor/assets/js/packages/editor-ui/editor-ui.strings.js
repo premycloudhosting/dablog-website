@@ -15,3 +15,5 @@ __( 'File dropzone', 'elementor' );
 __( 'Upload file', 'elementor' );
 __( 'or drag and drop', 'elementor' );
 
+
+

@@ -11,3 +11,5 @@ __( 'Style Pasted', 'elementor' );
 // translators: %s is the name of the property that was edited.
 __( '%s edited', 'elementor' );
 
+
+

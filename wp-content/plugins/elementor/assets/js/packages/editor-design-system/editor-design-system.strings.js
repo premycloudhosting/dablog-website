@@ -34,3 +34,5 @@ __( 'Keep existing values', 'elementor' );
 __( 'Existing variables and classes will not change.', 'elementor' );
 __( 'How to handle conflicts with existing variables or classes?', 'elementor' );
 
+
+

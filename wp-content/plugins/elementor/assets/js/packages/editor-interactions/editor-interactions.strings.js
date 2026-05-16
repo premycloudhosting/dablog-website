@@ -82,3 +82,5 @@ __( 'To left', 'elementor' );
 __( 'From right', 'elementor' );
 __( 'To right', 'elementor' );
 
+
+

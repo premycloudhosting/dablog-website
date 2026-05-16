@@ -594,3 +594,5 @@ elementor.on('preview:loaded', function (isFirstLoad) {
 ;
 //# sourceMappingURL=responsive-bar.js.map
 
+
+

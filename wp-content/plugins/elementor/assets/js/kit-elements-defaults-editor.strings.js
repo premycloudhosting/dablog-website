@@ -12,3 +12,5 @@ __( 'Default settings changed.', 'elementor' );
 __( 'Undo', 'elementor' );
 __( 'An error occurred.', 'elementor' );
 
+
+

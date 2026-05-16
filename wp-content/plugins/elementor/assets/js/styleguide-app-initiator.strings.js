@@ -9,3 +9,5 @@ __( 'Global Colors', 'elementor' );
 __( 'System Colors', 'elementor' );
 __( 'Custom Colors', 'elementor' );
 
+
+

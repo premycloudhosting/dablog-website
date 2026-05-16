@@ -9,3 +9,5 @@ __( 'Start with a ready-made design', 'elementor' );
 __( 'Blank site', 'elementor' );
 __( 'Start from scratch', 'elementor' );
 
+
+

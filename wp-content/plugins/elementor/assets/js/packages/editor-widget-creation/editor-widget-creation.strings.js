@@ -17,3 +17,5 @@ __( 'Install Manually', 'elementor' );
 __( 'Installingâ€¦', 'elementor' );
 __( 'Install & Activate', 'elementor' );
 
+
+

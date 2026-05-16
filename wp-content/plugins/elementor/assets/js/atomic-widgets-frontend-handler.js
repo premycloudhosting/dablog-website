@@ -2935,3 +2935,5 @@ module.exports = elementorV2.frontendHandlers;
 ]);
 //# sourceMappingURL=atomic-widgets-frontend-handler.js.map
 
+
+
