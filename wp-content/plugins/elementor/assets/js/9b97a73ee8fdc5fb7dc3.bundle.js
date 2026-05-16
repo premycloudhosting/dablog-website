@@ -1,4 +1,4 @@
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-elements_assets_js_editor_nested-element-types-base_js"],{
+﻿(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-elements_assets_js_editor_nested-element-types-base_js"],{
 
 /***/ "../assets/dev/js/editor/utils/editor-one-events.js":
 /*!**********************************************************!*\
@@ -869,3 +869,4 @@ module.exports = _superPropBase, module.exports.__esModule = true, module.export
 
 }]);
 //# sourceMappingURL=9b97a73ee8fdc5fb7dc3.bundle.js.map
+

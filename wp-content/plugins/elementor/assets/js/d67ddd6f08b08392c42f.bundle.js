@@ -1,4 +1,4 @@
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-tabs_assets_js_editor_module_js"],{
+﻿(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-tabs_assets_js_editor_module_js"],{
 
 /***/ "../modules/nested-tabs/assets/js/editor/module.js":
 /*!*********************************************************!*\
@@ -283,3 +283,4 @@ module.exports = toPropertyKey, module.exports.__esModule = true, module.exports
 
 }]);
 //# sourceMappingURL=d67ddd6f08b08392c42f.bundle.js.map
+

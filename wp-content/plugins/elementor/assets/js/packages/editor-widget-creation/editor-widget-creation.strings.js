@@ -1,4 +1,4 @@
-__( 'Close', 'elementor' );
+﻿__( 'Close', 'elementor' );
 __( 'Installation failed', 'elementor' );
 __( 'Create custom widgets with Angie', 'elementor' );
 __(
@@ -14,5 +14,6 @@ __( 'Terms', 'elementor' );
 __( '&', 'elementor' );
 __( 'Privacy Policy.', 'elementor' );
 __( 'Install Manually', 'elementor' );
-__( 'Installing…', 'elementor' );
+__( 'Installingâ€¦', 'elementor' );
 __( 'Install & Activate', 'elementor' );
+

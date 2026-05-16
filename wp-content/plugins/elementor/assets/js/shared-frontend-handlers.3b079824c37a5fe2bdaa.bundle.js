@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["shared-frontend-handlers"],{
 
 /***/ "../assets/dev/js/frontend/handlers/background-slideshow.js":
@@ -445,3 +445,4 @@ exports["default"] = BackgroundVideo;
 
 }]);
 //# sourceMappingURL=shared-frontend-handlers.3b079824c37a5fe2bdaa.bundle.js.map
+

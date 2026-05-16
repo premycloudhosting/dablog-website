@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Here should be only styles that related to the Editor v1, and should be overridden when using the Editor v2.
  */
 body {
@@ -43,3 +43,4 @@ body.elementor-navigator-docked #elementor-navigator {
   height: 100% !important;
 }
 /*# sourceMappingURL=editor-v2-app-bar-overrides.css.map */
+

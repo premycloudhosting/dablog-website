@@ -1,4 +1,4 @@
-__( 'Container', 'elementor' );
+﻿__( 'Container', 'elementor' );
 __( 'Direction Column', 'elementor' );
 __( 'Direction Row', 'elementor' );
 __( 'Cancel', 'elementor' );
@@ -26,3 +26,4 @@ __( 'Container', 'elementor' );
 __( 'Clear', 'elementor' );
 __( 'Color Picker', 'elementor' );
 __( 'Create New Global Color', 'elementor' );
+

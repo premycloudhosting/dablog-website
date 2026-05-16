@@ -1,4 +1,4 @@
-__( 'Clear', 'elementor' );
+﻿__( 'Clear', 'elementor' );
 __( 'Style', 'elementor' );
 // translators: %s$1 is the style label, %s$2 is the name of the style property being edited
 __( `%s$1 %s$2 edited`, 'elementor' );
@@ -33,7 +33,7 @@ __( 'This is the final value', 'elementor' );
 __( 'This value is overridden by another style', 'elementor' );
 __( 'This has value from another style', 'elementor' );
 __( 'Dynamic tags', 'elementor' );
-__( 'Search dynamic tags…', 'elementor' );
+__( 'Search dynamic tagsâ€¦', 'elementor' );
 __( 'Dynamic tags', 'elementor' );
 __( 'Dynamic tags', 'elementor' );
 __( 'Sorry, nothing matched', 'elementor' );
@@ -61,14 +61,14 @@ __( 'Duplicate', 'elementor' );
 __( 'local', 'elementor' );
 __( 'Classes', 'elementor' );
 __( 'Type class name', 'elementor' );
-__( 'With your current role, you can use existing classes but can’t modify them.', 'elementor' );
+__( 'With your current role, you can use existing classes but canâ€™t modify them.', 'elementor' );
 __( 'Sorry, nothing matched', 'elementor' );
 __( 'With your current role,', 'elementor' );
 __( 'you can only use existing classes.', 'elementor' );
 __( 'Clear & try again', 'elementor' );
 /* translators: %s is the maximum number of classes */
 __(
-					'You’ve reached the limit of %s classes. Please remove an existing one to create a new class.',
+					'Youâ€™ve reached the limit of %s classes. Please remove an existing one to create a new class.',
 					'elementor'
 				);
 __( 'normal', 'elementor' );
@@ -329,3 +329,4 @@ __( 'Adjust corners', 'elementor' );
 __( 'Border color', 'elementor' );
 __( 'Background', 'elementor' );
 __( 'Flex direction', 'elementor' );
+

@@ -1,4 +1,4 @@
-__( "Can't add this component - components that contain each other can't be nested.", 'elementor' );
+﻿__( "Can't add this component - components that contain each other can't be nested.", 'elementor' );
 __( 'Components', 'elementor' );
 __( 'Editing components requires an active Pro subscription.', 'elementor' );
 __( 'Upgrade Now', 'elementor' );
@@ -78,3 +78,4 @@ __( 'Sorry, nothing matched', 'elementor' );
 __( 'Try something else.', 'elementor' );
 __( 'Clear & try again', 'elementor' );
 __( 'Search', 'elementor' );
+

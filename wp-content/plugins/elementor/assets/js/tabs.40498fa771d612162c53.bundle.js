@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["tabs"],{
 
 /***/ "../assets/dev/js/frontend/handlers/base-tabs.js":
@@ -231,3 +231,4 @@ exports["default"] = Tabs;
 
 }]);
 //# sourceMappingURL=tabs.40498fa771d612162c53.bundle.js.map
+

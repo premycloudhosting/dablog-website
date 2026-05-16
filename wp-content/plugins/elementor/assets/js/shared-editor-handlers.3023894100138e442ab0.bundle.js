@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["shared-editor-handlers"],{
 
 /***/ "../assets/dev/js/frontend/handlers/handles-position.js":
@@ -60,3 +60,4 @@ exports["default"] = HandlesPosition;
 
 }]);
 //# sourceMappingURL=shared-editor-handlers.3023894100138e442ab0.bundle.js.map
+

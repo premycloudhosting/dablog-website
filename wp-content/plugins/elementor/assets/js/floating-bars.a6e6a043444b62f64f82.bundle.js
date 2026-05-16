@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["floating-bars"],{
 
 /***/ "../modules/floating-buttons/assets/js/floating-bars/frontend/classes/floatin-bar-dom.js":
@@ -375,3 +375,4 @@ exports["default"] = ClickTrackingHandler;
 
 }]);
 //# sourceMappingURL=floating-bars.a6e6a043444b62f64f82.bundle.js.map
+

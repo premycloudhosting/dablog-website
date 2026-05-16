@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["node_modules_elementor_elementor-one-assets_locales_pl-PL_send-feedback_json"],{
 
 /***/ "../node_modules/@elementor/elementor-one-assets/locales/pl-PL/send-feedback.json":
@@ -7,8 +7,9 @@
   \****************************************************************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"dialog":{"title":"Prześlij swoją opinię","fieldTitlePlaceholder":"Tytuł","fieldDescriptionPlaceholder":"Opowiedz nam, co masz na myśli","fieldSubjectPlaceholder":"Wybierz temat swojej opinii","fieldProductPlaceholder":"Wybierz produkt","note":"Dziękujemy za Twoją opinię! Chociaż przeglądamy wszystkie zgłoszenia, nie możemy zagwarantować, że każda sugestia zaowocuje zmianą lub aktualizacją.","subjects":{"leaveFeedback":"Zostaw opinię","reportBug":"Zgłoś błąd","requestFeature":"Zaproponuj funkcję","shareThoughts":"Podziel się innymi przemyśleniami"},"products":{"general":"Ogólne","editor":"Edytor","accessibility":"Dostępność","imageOptimization":"Optymalizacja obrazu","emailDeliverability":"Dostarczalność wiadomości e-mail","siteManagement":"Site Management"},"cancel":"Anuluj","submit":"Wyślij","titleLengthError":"Tytuł musi zawierać mniej niż 90 znaków","descriptionLengthError":"Opis musi zawierać mniej niż 1024 znaki","alert":{"title":"Potrzebujesz pomocy lub napotkałeś problem?","button":"Wyślij zgłoszenie do pomocy technicznej"}},"tooltipSuccess":"Opinia wysłana. Dziękujemy za pomoc.","tooltipError":"Coś poszło nie tak. Spróbuj ponownie wysłać swoją opinię."}');
+module.exports = /*#__PURE__*/JSON.parse('{"dialog":{"title":"PrzeÅ›lij swojÄ… opiniÄ™","fieldTitlePlaceholder":"TytuÅ‚","fieldDescriptionPlaceholder":"Opowiedz nam, co masz na myÅ›li","fieldSubjectPlaceholder":"Wybierz temat swojej opinii","fieldProductPlaceholder":"Wybierz produkt","note":"DziÄ™kujemy za TwojÄ… opiniÄ™! ChociaÅ¼ przeglÄ…damy wszystkie zgÅ‚oszenia, nie moÅ¼emy zagwarantowaÄ‡, Å¼e kaÅ¼da sugestia zaowocuje zmianÄ… lub aktualizacjÄ….","subjects":{"leaveFeedback":"Zostaw opiniÄ™","reportBug":"ZgÅ‚oÅ› bÅ‚Ä…d","requestFeature":"Zaproponuj funkcjÄ™","shareThoughts":"Podziel siÄ™ innymi przemyÅ›leniami"},"products":{"general":"OgÃ³lne","editor":"Edytor","accessibility":"DostÄ™pnoÅ›Ä‡","imageOptimization":"Optymalizacja obrazu","emailDeliverability":"DostarczalnoÅ›Ä‡ wiadomoÅ›ci e-mail","siteManagement":"Site Management"},"cancel":"Anuluj","submit":"WyÅ›lij","titleLengthError":"TytuÅ‚ musi zawieraÄ‡ mniej niÅ¼ 90 znakÃ³w","descriptionLengthError":"Opis musi zawieraÄ‡ mniej niÅ¼ 1024 znaki","alert":{"title":"Potrzebujesz pomocy lub napotkaÅ‚eÅ› problem?","button":"WyÅ›lij zgÅ‚oszenie do pomocy technicznej"}},"tooltipSuccess":"Opinia wysÅ‚ana. DziÄ™kujemy za pomoc.","tooltipError":"CoÅ› poszÅ‚o nie tak. SprÃ³buj ponownie wysÅ‚aÄ‡ swojÄ… opiniÄ™."}');
 
 /***/ })
 
 }]);
+

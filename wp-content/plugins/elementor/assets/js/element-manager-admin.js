@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../modules/element-manager/assets/js/api.js":
@@ -3639,9 +3639,9 @@ function getNormalAttributeName(attribute) {
 /**
  * Returns the normal form of the style property name for HTML.
  *
- * - Converts property names to kebab-case, e.g. 'backgroundColor' → 'background-color'
- * - Leaves custom attributes alone, e.g. '--myBackgroundColor' → '--myBackgroundColor'
- * - Converts vendor-prefixed property names to -kebab-case, e.g. 'MozTransform' → '-moz-transform'
+ * - Converts property names to kebab-case, e.g. 'backgroundColor' â†’ 'background-color'
+ * - Leaves custom attributes alone, e.g. '--myBackgroundColor' â†’ '--myBackgroundColor'
+ * - Converts vendor-prefixed property names to -kebab-case, e.g. 'MozTransform' â†’ '-moz-transform'
  *
  * @param {string} property Property name.
  *
@@ -4200,17 +4200,17 @@ var SUPPORTED_LOCALE = {
     tr: {
         regexp: /\u0130|\u0049|\u0049\u0307/g,
         map: {
-            İ: "\u0069",
+            Ä°: "\u0069",
             I: "\u0131",
-            İ: "\u0069",
+            IÌ‡: "\u0069",
         },
     },
     az: {
         regexp: /\u0130/g,
         map: {
-            İ: "\u0069",
+            Ä°: "\u0069",
             I: "\u0131",
-            İ: "\u0069",
+            IÌ‡: "\u0069",
         },
     },
     lt: {
@@ -4218,10 +4218,10 @@ var SUPPORTED_LOCALE = {
         map: {
             I: "\u0069\u0307",
             J: "\u006A\u0307",
-            Į: "\u012F\u0307",
-            Ì: "\u0069\u0307\u0300",
-            Í: "\u0069\u0307\u0301",
-            Ĩ: "\u0069\u0307\u0303",
+            Ä®: "\u012F\u0307",
+            ÃŒ: "\u0069\u0307\u0300",
+            Ã: "\u0069\u0307\u0301",
+            Ä¨: "\u0069\u0307\u0303",
         },
     },
 };
@@ -6072,3 +6072,4 @@ var _appEditorOne = __webpack_require__(/*! ./app-editor-one */ "../modules/elem
 /******/ })()
 ;
 //# sourceMappingURL=element-manager-admin.js.map
+

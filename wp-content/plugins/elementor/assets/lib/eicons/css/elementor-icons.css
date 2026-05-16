@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: "eicons";
   src: url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.49.0");
   src: url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.49.0#iefix") format("embedded-opentype"), url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.49.0") format("woff2"), url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.49.0") format("woff"), url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.49.0") format("truetype"), url("https://danielawele.link/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.49.0#eicon") format("svg");
@@ -2058,3 +2058,4 @@
 .eicon-elementor-square:before {
   content: "\e813";
 }
+

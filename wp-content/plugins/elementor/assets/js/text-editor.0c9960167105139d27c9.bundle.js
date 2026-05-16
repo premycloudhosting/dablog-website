@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["text-editor"],{
 
 /***/ "../assets/dev/js/frontend/handlers/text-editor.js":
@@ -93,3 +93,4 @@ exports["default"] = TextEditor;
 
 }]);
 //# sourceMappingURL=text-editor.0c9960167105139d27c9.bundle.js.map
+

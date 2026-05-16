@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["styleguide-app"],{
 
 /***/ "../modules/styleguide/assets/js/frontend/app.js":
@@ -1220,3 +1220,4 @@ function useIntersectionObserver(callback) {
 
 }]);
 //# sourceMappingURL=styleguide-app.36ecabae74d9b87fc5a8.bundle.js.map
+

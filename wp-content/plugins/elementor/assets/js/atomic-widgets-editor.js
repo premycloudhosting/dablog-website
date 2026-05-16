@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/editor/elements/views/behaviors/sortable.js":
@@ -2937,3 +2937,4 @@ new Module();
 /******/ })()
 ;
 //# sourceMappingURL=atomic-widgets-editor.js.map
+

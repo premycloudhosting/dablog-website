@@ -1,4 +1,4 @@
-@keyframes flash {
+﻿@keyframes flash {
 	50%,
 	from,
 	to {
@@ -12,3 +12,5 @@
 .flash {
 	animation-name: flash;
 }
+
+

@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/utils/react.js":
@@ -327,17 +327,17 @@ var _excluded = ["onClose", "onSubmit", "isEnrolled"];
 function _interopRequireWildcard(e, t) { if ("function" == typeof WeakMap) var r = new WeakMap(), n = new WeakMap(); return (_interopRequireWildcard = function _interopRequireWildcard(e, t) { if (!t && e && e.__esModule) return e; var o, i, f = { __proto__: null, default: e }; if (null === e || "object" != _typeof(e) && "function" != typeof e) return f; if (o = t ? n : r) { if (o.has(e)) return o.get(e); o.set(e, f); } for (var _t in e) "default" !== _t && {}.hasOwnProperty.call(e, _t) && ((i = (o = Object.defineProperty) && Object.getOwnPropertyDescriptor(e, _t)) && (i.get || i.set) ? o(f, _t, i) : f[_t] = e[_t]); return f; })(e, t); }
 var i18n = {
   header: (0, _i18n.__)('Atomic Editor', 'elementor'),
-  checkboxText: (0, _i18n.__)('I’ve read and understood.', 'elementor'),
+  checkboxText: (0, _i18n.__)('Iâ€™ve read and understood.', 'elementor'),
   optIn: {
     titleText: (0, _i18n.__)('You are about to enable Atomic Editor features!', 'elementor'),
-    introText: (0, _i18n.__)('By activating, you’ll get access to the next generation of Elementor’s Editor. This is your chance to explore new capabilities and help shape the future of Elementor! ', 'elementor'),
-    details: [(0, _i18n.__)('When you activate, you’ll also be activating Containers and Nested Elements. You can turn them back off by going to: WP Admin > Elementor > Settings > Features.', 'elementor')],
+    introText: (0, _i18n.__)('By activating, youâ€™ll get access to the next generation of Elementorâ€™s Editor. This is your chance to explore new capabilities and help shape the future of Elementor! ', 'elementor'),
+    details: [(0, _i18n.__)('When you activate, youâ€™ll also be activating Containers and Nested Elements. You can turn them back off by going to: WP Admin > Elementor > Settings > Features.', 'elementor')],
     activateButton: (0, _i18n.__)('Activate', 'elementor'),
     cancelButton: (0, _i18n.__)('Cancel', 'elementor')
   },
   optOut: {
     titleText: (0, _i18n.__)('You\'re about to lose all content created with Atomic features', 'elementor'),
-    details: [(0, _i18n.__)('By deactivating, you’ll lose all Atomic Elements, Classes and Variables. Any content you created with these features will no longer be available or appear on your site.', 'elementor'), (0, _i18n.__)('Containers and Nested Elements will stay in their current status.', 'elementor')],
+    details: [(0, _i18n.__)('By deactivating, youâ€™ll lose all Atomic Elements, Classes and Variables. Any content you created with these features will no longer be available or appear on your site.', 'elementor'), (0, _i18n.__)('Containers and Nested Elements will stay in their current status.', 'elementor')],
     activateButton: (0, _i18n.__)('Deactivate', 'elementor'),
     cancelButton: (0, _i18n.__)('Cancel', 'elementor')
   }
@@ -464,7 +464,7 @@ var i18n = {
   advantages: [[(0, _i18n.__)('Combine legacy widgets & new elements', 'elementor'), (0, _i18n.__)('Your current and new workflows work together on the same page.', 'elementor')], [(0, _i18n.__)('Build reusable design systems', 'elementor'), (0, _i18n.__)('Classes, Variables and Components give you a clear path for scale.', 'elementor')], [(0, _i18n.__)('Consistent styling experience', 'elementor'), (0, _i18n.__)('A unified Style tab for all Atomic Elements with full control over responsive design.', 'elementor')], [(0, _i18n.__)('Unparalleled performance', 'elementor'), (0, _i18n.__)('Cleaner code and a lighter CSS footprint with single-div wrappers.', 'elementor')]],
   andMore: (0, _i18n.__)('And much more!', 'elementor'),
   readMore: (0, _i18n.__)('Learn more', 'elementor'),
-  feedback: (0, _i18n.__)('We’d love your feedback!', 'elementor'),
+  feedback: (0, _i18n.__)('Weâ€™d love your feedback!', 'elementor'),
   overToGithub: (0, _i18n.__)('Head over to Github', 'elementor'),
   tellUsWhy: (0, _i18n.__)('Tell us why', 'elementor'),
   image: (0, _i18n.__)('Editor V4', 'elementor'),
@@ -474,8 +474,8 @@ var i18n = {
     optOut: (0, _i18n.__)('Deactivate', 'elementor')
   },
   messages: {
-    optInSuccess: (0, _i18n.__)('Welcome! You’ve got the newest version of the editor.', 'elementor'),
-    optOut: (0, _i18n.__)('You’ve deactivated the new Editor. Have feedback?', 'elementor'),
+    optInSuccess: (0, _i18n.__)('Welcome! Youâ€™ve got the newest version of the editor.', 'elementor'),
+    optOut: (0, _i18n.__)('Youâ€™ve deactivated the new Editor. Have feedback?', 'elementor'),
     error: (0, _i18n.__)('Ouch, there was a glitch. Try activating again soon.', 'elementor')
   }
 };
@@ -1892,11 +1892,11 @@ function createDOMPurify() {
    * properties and JS variables, mitigating attacks that abuse the HTML/DOM spec rules.
    *
    * HTML/DOM spec rules that enable DOM Clobbering:
-   *   - Named Access on Window (§7.3.3)
-   *   - DOM Tree Accessors (§3.1.5)
-   *   - Form Element Parent-Child Relations (§4.10.3)
-   *   - Iframe srcdoc / Nested WindowProxies (§4.8.5)
-   *   - HTMLCollection (§4.2.10.2)
+   *   - Named Access on Window (Â§7.3.3)
+   *   - DOM Tree Accessors (Â§3.1.5)
+   *   - Form Element Parent-Child Relations (Â§4.10.3)
+   *   - Iframe srcdoc / Nested WindowProxies (Â§4.8.5)
+   *   - HTMLCollection (Â§4.2.10.2)
    *
    * Namespace isolation is implemented by prefixing `id` and `name` attributes
    * with a constant string, i.e., `user-content-`
@@ -4087,3 +4087,4 @@ init();
 /******/ })()
 ;
 //# sourceMappingURL=editor-v4-opt-in.js.map
+

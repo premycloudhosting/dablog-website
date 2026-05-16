@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../app/assets/js/utils/utils.js":
@@ -2978,7 +2978,7 @@ var Close = exports.Close = /*#__PURE__*/function (_$e$modules$CommandBa) {
       this.confirmDialog = elementorCommon.dialogsManager.createWidget('confirm', {
         id: 'elementor-document-save-on-close',
         headerMessage: __('You are leaving to a separate site part.', 'elementor'),
-        message: __('Save your changes before moving on because the current document and the one you’re moving to are separate site parts.', 'elementor'),
+        message: __('Save your changes before moving on because the current document and the one youâ€™re moving to are separate site parts.', 'elementor'),
         position: {
           my: 'center center',
           at: 'center center'
@@ -8407,10 +8407,10 @@ var Component = exports["default"] = /*#__PURE__*/function (_ComponentModalBase)
             /* Translators: %s is the type content */
             headerMessage: __('Apply the settings of this %s too?', 'elementor').replace('%s', elementor.translate(model.attributes.type)),
             /* Translators: %s is the type content */
-            message: __('This will override the design, layout, and other settings of the %s you’re working on.', 'elementor').replace('%s', elementor.documents.getCurrent().container.label),
+            message: __('This will override the design, layout, and other settings of the %s youâ€™re working on.', 'elementor').replace('%s', elementor.documents.getCurrent().container.label),
             strings: {
               confirm: __('Apply', 'elementor'),
-              cancel: __('Don’t apply', 'elementor')
+              cancel: __('Donâ€™t apply', 'elementor')
             }
           });
         },
@@ -10360,14 +10360,14 @@ module.exports = Marionette.ItemView.extend({
         button: "<a class=\"elementor-button e-primary connect-button\" href=\"".concat((_elementorAppConfig3 = elementorAppConfig) === null || _elementorAppConfig3 === void 0 || (_elementorAppConfig3 = _elementorAppConfig3['cloud-library']) === null || _elementorAppConfig3 === void 0 ? void 0 : _elementorAppConfig3.library_connect_url, "\" target=\"_blank\">").concat((_elementorAppConfig$c3 = (_elementorAppConfig4 = elementorAppConfig) === null || _elementorAppConfig4 === void 0 || (_elementorAppConfig4 = _elementorAppConfig4['cloud-library']) === null || _elementorAppConfig4 === void 0 ? void 0 : _elementorAppConfig4.library_connect_button_copy) !== null && _elementorAppConfig$c3 !== void 0 ? _elementorAppConfig$c3 : __('Connect', 'elementor'), "</a>")
       },
       connectedNoQuota: {
-        title: __('It’s time to level up', 'elementor'),
-        message: __('Elementor Pro plans come with Cloud Templates.', 'elementor') + '<br>' + __('Upgrade now to re-use your templates on all the websites you’re working on.', 'elementor'),
+        title: __('Itâ€™s time to level up', 'elementor'),
+        message: __('Elementor Pro plans come with Cloud Templates.', 'elementor') + '<br>' + __('Upgrade now to re-use your templates on all the websites youâ€™re working on.', 'elementor'),
         icon: "<i class=\"eicon-library-subscription-upgrade\" aria-hidden=\"true\" title=\"".concat(__('Upgrade now', 'elememntor'), "\"></i>"),
         button: "<a class=\"elementor-button e-accent\" href=\"https://go.elementor.com/go-pro-cloud-templates-cloud-tab\" target=\"_blank\">".concat(__('Upgrade now', 'elementor'), "</a>")
       },
       deactivated: {
         title: __('Your library has been deactivated', 'elementor'),
-        message: __('This is because you don’t have an active subscription.', 'elementor') + '<br>' + __('Your templates are saved for 90 days from the day your subscription expires,', 'elementor') + '<br>' + __('then they’ll be gone forever.', 'elementor'),
+        message: __('This is because you donâ€™t have an active subscription.', 'elementor') + '<br>' + __('Your templates are saved for 90 days from the day your subscription expires,', 'elementor') + '<br>' + __('then theyâ€™ll be gone forever.', 'elementor'),
         icon: "<i class=\"eicon-library-subscription-upgrade\" aria-hidden=\"true\" title=\"".concat(__('Renew my subscription', 'elememntor'), "\"></i>"),
         button: "<a class=\"elementor-button e-accent\" href=\"https://go.elementor.com/renew-license-cloud-templates-cloud-tab\" target=\"_blank\">".concat(__('Renew my subscription', 'elementor'), "</a>")
       }
@@ -12044,7 +12044,7 @@ var TemplateLibraryTemplatesEmptyView = Marionette.ItemView.extend({
     var defaultIcon = this.getDefaultIcon();
     return {
       empty: {
-        title: __('Haven’t Saved Templates Yet?', 'elementor'),
+        title: __('Havenâ€™t Saved Templates Yet?', 'elementor'),
         message: __('This is where your templates should be. Design it. Save it. Reuse it.', 'elementor'),
         icon: defaultIcon,
         button: ''
@@ -12063,13 +12063,13 @@ var TemplateLibraryTemplatesEmptyView = Marionette.ItemView.extend({
       },
       cloudEmpty: {
         title: __('No templates saved just yet', 'elementor'),
-        message: __('Once you save a template, it’ll show up here, ready for reuse across all of your Elementor sites—no extra work needed.', 'elementor'),
+        message: __('Once you save a template, itâ€™ll show up here, ready for reuse across all of your Elementor sitesâ€”no extra work needed.', 'elementor'),
         icon: this.getCloudIcon(),
         button: "<a class=\"e-back-to-editor\">".concat(__('Back to editor', 'elementor'), "</a>")
       },
       cloudFolderEmpty: {
         title: __('No templates to show here, yet', 'elementor'),
-        message: __('Once you save some templates to this folder, you can use them on any website you’re working on.', 'elementor'),
+        message: __('Once you save some templates to this folder, you can use them on any website youâ€™re working on.', 'elementor'),
         icon: this.getEmptyFolderIcon(),
         button: "<a class=\"e-back-to-editor\">".concat(__('Back to editor', 'elementor'), "</a>")
       }
@@ -20452,7 +20452,7 @@ var Copy = exports.Copy = /*#__PURE__*/function (_$e$modules$editor$Co) {
         containers = _args$containers === void 0 ? [args.container] : _args$containers;
       if (!elementor.selection.isSameType()) {
         elementor.notifications.showToast({
-          message: __('That didn’t work. Try copying one kind of element at a time.', 'elementor'),
+          message: __('That didnâ€™t work. Try copying one kind of element at a time.', 'elementor'),
           buttons: [{
             name: 'got_it',
             text: __('Got it', 'elementor')
@@ -20742,7 +20742,7 @@ var Delete = exports.Delete = /*#__PURE__*/function (_$e$modules$editor$do) {
         }
         elementorCommon.eventsManager.dispatchEvent('delete_element', eventData);
       } catch (_unused) {
-        // Silently fail — analytics should never break production functionality.
+        // Silently fail â€” analytics should never break production functionality.
       }
     }
   }, {
@@ -20929,7 +20929,7 @@ var Duplicate = exports.Duplicate = /*#__PURE__*/function (_$e$modules$editor$do
       var at = containers[containers.length - 1].view._index;
       if (!elementor.selection.isSameType()) {
         elementor.notifications.showToast({
-          message: __('That didn’t work. Try duplicating one kind of element at a time.', 'elementor'),
+          message: __('That didnâ€™t work. Try duplicating one kind of element at a time.', 'elementor'),
           buttons: [{
             name: 'got_it',
             text: __('Got it', 'elementor')
@@ -28143,7 +28143,7 @@ var Save = exports.Save = /*#__PURE__*/function (_$e$modules$CommandIn) {
       } else if (data.statusText) {
         message = elementor.createAjaxErrorMessage(data);
         if (0 === data.readyState) {
-          message += ' ' + __('Saving has been disabled until you’re reconnected.', 'elementor');
+          message += ' ' + __('Saving has been disabled until youâ€™re reconnected.', 'elementor');
         }
       } else if (data[0] && data[0].code) {
         message = __('Server Error', 'elementor') + ' ' + data[0].code;
@@ -32608,7 +32608,7 @@ BaseElementView = BaseContainer.extend({
       }, {
         name: 'pasteStyle',
         title: __('Paste style', 'elementor'),
-        shortcut: controlSign + '+⇧+V',
+        shortcut: controlSign + '+â‡§+V',
         isEnabled: function isEnabled() {
           return !!elementorCommon.storage.get('clipboard');
         },
@@ -32680,7 +32680,7 @@ BaseElementView = BaseContainer.extend({
           }
           return __('Delete', 'elementor');
         },
-        shortcut: '⌦',
+        shortcut: 'âŒ¦',
         callback: function callback() {
           return $e.run('document/elements/delete', {
             containers: elementor.selection.getElements(_this2.getContainer()),
@@ -48636,7 +48636,7 @@ var Back = exports.Back = /*#__PURE__*/function (_$e$modules$CommandBa) {
       var panelHistory = $e.routes.getHistory('panel');
       var currentRoute = (_panelHistory = panelHistory[panelHistory.length - 1]) === null || _panelHistory === void 0 ? void 0 : _panelHistory.route;
 
-      // When at the root Site Settings page, back should behave like close —
+      // When at the root Site Settings page, back should behave like close â€”
       // switching back to the initial document and clearing the active-document query param.
       if (currentRoute === this.component.getNamespace() + '/menu') {
         this.getCloseConfirmDialog(event).show();
@@ -48827,7 +48827,7 @@ var Close = exports.Close = /*#__PURE__*/function (_$e$modules$CommandBa) {
         _this = this;
       var mode = args.mode;
 
-      // The kit is opened directly — no document switch needed, safe to track immediately.
+      // The kit is opened directly â€” no document switch needed, safe to track immediately.
       if (elementor.config.initial_document.id === parseInt(elementor.config.kit_id)) {
         var _this$component$siteS, _this$component$getSi, _this$component, _this$component$reset, _this$component2;
         var hasSaved = ((_this$component$siteS = this.component.siteSettingsSession) === null || _this$component$siteS === void 0 ? void 0 : _this$component$siteS.hasSaved) || false;
@@ -62633,11 +62633,11 @@ function createDOMPurify() {
    * properties and JS variables, mitigating attacks that abuse the HTML/DOM spec rules.
    *
    * HTML/DOM spec rules that enable DOM Clobbering:
-   *   - Named Access on Window (§7.3.3)
-   *   - DOM Tree Accessors (§3.1.5)
-   *   - Form Element Parent-Child Relations (§4.10.3)
-   *   - Iframe srcdoc / Nested WindowProxies (§4.8.5)
-   *   - HTMLCollection (§4.2.10.2)
+   *   - Named Access on Window (Â§7.3.3)
+   *   - DOM Tree Accessors (Â§3.1.5)
+   *   - Form Element Parent-Child Relations (Â§4.10.3)
+   *   - Iframe srcdoc / Nested WindowProxies (Â§4.8.5)
+   *   - HTMLCollection (Â§4.2.10.2)
    *
    * Namespace isolation is implemented by prefixing `id` and `name` attributes
    * with a constant string, i.e., `user-content-`
@@ -65185,7 +65185,7 @@ function createStore(reducer, preloadedState, enhancer) {
    * example, see the documentation for the `redux-thunk` package. Even the
    * middleware will eventually dispatch plain object actions using this method.
    *
-   * @param {Object} action A plain object representing “what changed”. It is
+   * @param {Object} action A plain object representing â€œwhat changedâ€. It is
    * a good idea to keep actions serializable so you can record and replay user
    * sessions, or use the time travelling `redux-devtools`. An action must have
    * a `type` property which may not be `undefined`. It is a good idea to use
@@ -66641,3 +66641,4 @@ window.elementor = new Editor();
 /******/ })()
 ;
 //# sourceMappingURL=editor.js.map
+

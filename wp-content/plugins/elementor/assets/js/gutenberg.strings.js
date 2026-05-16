@@ -1,4 +1,4 @@
-__( 'Please note that you are switching to WordPress default editor. Your current layout, design and content might break.', 'elementor' );
+﻿__( 'Please note that you are switching to WordPress default editor. Your current layout, design and content might break.', 'elementor' );
 __( 'Back to WordPress Editor', 'elementor' );
 __( 'Continue', 'elementor' );
 __( 'Cancel', 'elementor' );
@@ -26,3 +26,4 @@ __( 'New Template', 'elementor' );
 __( 'New Floating Elements', 'elementor' );
 __( 'Sign Up', 'elementor' );
 __( 'Don\'t Show Again', 'elementor' );
+

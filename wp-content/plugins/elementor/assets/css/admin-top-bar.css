@@ -1,4 +1,4 @@
-#e-dashboard-widget-admin-top-bar {
+﻿#e-dashboard-widget-admin-top-bar {
   position: absolute;
   opacity: 0;
   pointer-events: none;
@@ -149,3 +149,4 @@ body.folded #e-admin-top-bar-root {
   }
 }
 /*# sourceMappingURL=admin-top-bar.css.map */
+

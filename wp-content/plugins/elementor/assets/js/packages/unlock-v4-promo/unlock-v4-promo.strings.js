@@ -1,4 +1,4 @@
-__( 'You can enable the Atomic editor anytime from Editor Settings.', 'elementor' );
+﻿__( 'You can enable the Atomic editor anytime from Editor Settings.', 'elementor' );
 __( 'Failed to activate Atomic elements', 'elementor' );
 __( 'Atomic Elements', 'elementor' );
 __( 'New', 'elementor' );
@@ -8,3 +8,4 @@ __(
 						);
 __( 'Learn more', 'elementor' );
 __( 'Activate now', 'elementor' );
+

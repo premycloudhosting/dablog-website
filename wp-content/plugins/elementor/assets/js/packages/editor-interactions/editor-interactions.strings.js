@@ -1,4 +1,4 @@
-__( 'PRO features', 'elementor' );
+﻿__( 'PRO features', 'elementor' );
 __( 'Interactions', 'elementor' );
 __( 'Upgrade now', 'elementor' );
 __( 'Interaction Applied', 'elementor' );
@@ -81,3 +81,4 @@ __( 'From left', 'elementor' );
 __( 'To left', 'elementor' );
 __( 'From right', 'elementor' );
 __( 'To right', 'elementor' );
+

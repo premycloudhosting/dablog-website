@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/admin/beta-tester/layout.js":
@@ -469,3 +469,4 @@ jQuery(function () {
 /******/ })()
 ;
 //# sourceMappingURL=beta-tester.js.map
+

@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/editor/command-bases/command-container-base.js":
@@ -1626,3 +1626,4 @@ $e.modules.document = {
 /******/ })()
 ;
 //# sourceMappingURL=editor-document.js.map
+

@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["section-editor-handlers"],{
 
 /***/ "../assets/dev/js/frontend/handlers/section/shapes.js":
@@ -96,3 +96,4 @@ exports["default"] = Shapes;
 
 }]);
 //# sourceMappingURL=section-editor-handlers.d65899d232b5339510d7.bundle.js.map
+

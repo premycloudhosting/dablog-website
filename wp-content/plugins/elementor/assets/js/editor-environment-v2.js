@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /*!************************************************************!*\
   !*** ../core/editor/loader/v2/js/editor-environment-v2.js ***!
@@ -13,3 +13,4 @@ window.elementorV2.env.initEnv(window.elementorEditorV2Env);
 /******/ })()
 ;
 //# sourceMappingURL=editor-environment-v2.js.map
+

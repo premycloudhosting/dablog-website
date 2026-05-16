@@ -1,4 +1,4 @@
-@keyframes elementor-animation-pulse-shrink {
+﻿@keyframes elementor-animation-pulse-shrink {
 	to {
 		transform: scale(0.9);
 	}
@@ -12,3 +12,5 @@
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
+
+

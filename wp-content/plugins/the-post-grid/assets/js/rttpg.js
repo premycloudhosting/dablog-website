@@ -1,4 +1,4 @@
-(function ($) {
+﻿(function ($) {
     'use strict';
 
     window.tpgFixLazyLoad = function () {
@@ -302,3 +302,4 @@
     });
 
 })(jQuery);
+

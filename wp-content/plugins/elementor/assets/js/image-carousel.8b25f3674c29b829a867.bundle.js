@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["image-carousel"],{
 
 /***/ "../assets/dev/js/frontend/handlers/image-carousel.js":
@@ -26,3 +26,4 @@ exports["default"] = ImageCarousel;
 
 }]);
 //# sourceMappingURL=image-carousel.8b25f3674c29b829a867.bundle.js.map
+

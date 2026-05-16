@@ -1,4 +1,4 @@
-__( 'Design System', 'elementor' );
+﻿__( 'Design System', 'elementor' );
 __( 'Import in Progress. You will be notified when the import is complete.', 'elementor' );
 __( 'Design system imported', 'elementor' );
 __( 'Your design system import failed', 'elementor' );
@@ -9,7 +9,7 @@ __( 'Design system file dropzone', 'elementor' );
 __( 'zip (max. %dMB)', 'elementor' );
 __( 'Cancel', 'elementor' );
 __( 'Import', 'elementor' );
-__( 'Export in progress. Your file will download when it’s ready.', 'elementor' );
+__( 'Export in progress. Your file will download when itâ€™s ready.', 'elementor' );
 __( 'Design system exported', 'elementor' );
 __( 'Your design system export failed', 'elementor' );
 __( 'Try again', 'elementor' );
@@ -33,3 +33,4 @@ __( 'Imported design system values will overwrite existing variables and classes
 __( 'Keep existing values', 'elementor' );
 __( 'Existing variables and classes will not change.', 'elementor' );
 __( 'How to handle conflicts with existing variables or classes?', 'elementor' );
+

@@ -1,4 +1,4 @@
-@keyframes rubberBand {
+﻿@keyframes rubberBand {
 	from,
 	to {
 		transform: scale3d(1, 1, 1);
@@ -22,3 +22,5 @@
 .rubberBand {
 	animation-name: rubberBand;
 }
+
+

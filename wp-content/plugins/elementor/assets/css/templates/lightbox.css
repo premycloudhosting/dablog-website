@@ -1,4 +1,4 @@
-:where(.elementor-lightbox) {
+﻿:where(.elementor-lightbox) {
   --lightbox-ui-color: rgba(238, 238, 238, 0.9);
   --lightbox-ui-color-hover: #fff;
   --lightbox-text-color: var(--lightbox-ui-color);
@@ -416,3 +416,4 @@
 }
 
 /*# sourceMappingURL=lightbox.css.map */
+

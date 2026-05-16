@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
@@ -133,3 +133,4 @@ module.exports = wp.i18n;
 /******/ })()
 ;
 //# sourceMappingURL=admin-feedback.js.map
+

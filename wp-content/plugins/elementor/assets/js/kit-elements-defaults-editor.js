@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../modules/kit-elements-defaults/assets/js/editor/api.js":
@@ -1778,3 +1778,4 @@ new _module.default();
 /******/ })()
 ;
 //# sourceMappingURL=kit-elements-defaults-editor.js.map
+

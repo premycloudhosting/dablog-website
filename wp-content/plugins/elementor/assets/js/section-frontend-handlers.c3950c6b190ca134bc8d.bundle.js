@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["section-frontend-handlers"],{
 
 /***/ "../assets/dev/js/frontend/handlers/section/stretched-section.js":
@@ -30,3 +30,4 @@ exports["default"] = StretchedSection;
 
 }]);
 //# sourceMappingURL=section-frontend-handlers.c3950c6b190ca134bc8d.bundle.js.map
+

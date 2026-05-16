@@ -1,4 +1,4 @@
-/* Shared row and title styles for V4 list controls */
+﻿/* Shared row and title styles for V4 list controls */
 .e-v4-color-variable-list__row,
 .e-v4-typography-list__row {
   display: flex;
@@ -105,3 +105,4 @@
 }
 
 /*# sourceMappingURL=design-system-sync.css.map */
+

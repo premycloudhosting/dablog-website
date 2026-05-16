@@ -1,4 +1,4 @@
-__( 'Select video', 'elementor' );
+﻿__( 'Select video', 'elementor' );
 __( 'Upload', 'elementor' );
 __( 'Start time', 'elementor' );
 __( 'End time', 'elementor' );
@@ -338,3 +338,4 @@ __( 'Position', 'elementor' );
 __( 'Fixed', 'elementor' );
 __( 'Scroll', 'elementor' );
 __( 'Attachment', 'elementor' );
+

@@ -1,4 +1,4 @@
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-accordion_assets_js_editor_module_js"],{
+﻿(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-accordion_assets_js_editor_module_js"],{
 
 /***/ "../modules/nested-accordion/assets/js/editor/module.js":
 /*!**************************************************************!*\
@@ -268,3 +268,4 @@ module.exports = toPropertyKey, module.exports.__esModule = true, module.exports
 
 }]);
 //# sourceMappingURL=d52aa05c75af56327744.bundle.js.map
+

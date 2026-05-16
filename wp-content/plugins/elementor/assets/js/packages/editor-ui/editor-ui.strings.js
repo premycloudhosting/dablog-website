@@ -1,4 +1,4 @@
-__( 'Clear', 'elementor' );
+﻿__( 'Clear', 'elementor' );
 __( "Don't show this again", 'elementor' );
 __( 'Got it introduction', 'elementor' );
 __( 'Got it', 'elementor' );
@@ -14,3 +14,4 @@ __( 'Remove file', 'elementor' );
 __( 'File dropzone', 'elementor' );
 __( 'Upload file', 'elementor' );
 __( 'or drag and drop', 'elementor' );
+

@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/editor/components/dynamic-tags/control-behavior.js":
@@ -5133,7 +5133,7 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
   var BezierFactory = function () {
     /**
        * BezierEasing - use bezier curve for transition easing function
-       * by Gaëtan Renaudeau 2014 - 2015 – MIT License
+       * by GaÃ«tan Renaudeau 2014 - 2015 â€“ MIT License
        *
        * Credits: is based on Firefox's nsSMILKeySpline.cpp
        * Usage:
@@ -9194,7 +9194,7 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
     }
 
     // The regional indicator symbols are a set of 26 alphabetic Unicode
-    /// characters (A–Z) intended to be used to encode ISO 3166-1 alpha-2
+    /// characters (Aâ€“Z) intended to be used to encode ISO 3166-1 alpha-2
     // two-letter country codes in a way that allows optional special treatment.
     function isRegionalCode(string) {
       var codePoint = getCodePoint(string);
@@ -9205,7 +9205,7 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
     }
 
     // Some Emoji implementations represent combinations of
-    // two “regional indicator” letters as a single flag symbol.
+    // two â€œregional indicatorâ€ letters as a single flag symbol.
     function isFlagEmoji(string) {
       return isRegionalCode(string.substr(0, 2)) && isRegionalCode(string.substr(2, 2));
     }
@@ -21100,3 +21100,4 @@ new _module.default();
 /******/ })()
 ;
 //# sourceMappingURL=e-react-promotions.js.map
+

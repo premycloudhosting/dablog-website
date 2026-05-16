@@ -1,4 +1,4 @@
-.elementor-animation-shrink {
+﻿.elementor-animation-shrink {
 	transition-duration: 0.3s;
 	transition-property: transform;
 }
@@ -7,3 +7,5 @@
 .elementor-animation-shrink:hover {
 	transform: scale(0.9);
 }
+
+

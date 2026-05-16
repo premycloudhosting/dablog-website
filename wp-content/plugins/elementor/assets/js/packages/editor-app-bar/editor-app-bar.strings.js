@@ -1,4 +1,4 @@
-__( 'Exit to WordPress', 'elementor' );
+﻿__( 'Exit to WordPress', 'elementor' );
 __( 'Send Feedback', 'elementor' );
 __( 'Angie', 'elementor' );
 __(
@@ -10,7 +10,7 @@ __( 'More', 'elementor' );
 __( 'Elementor Logo', 'elementor' );
 __( 'Submit Feedback', 'elementor' );
 __(
-											'E.g. Can you add ABC features? I want to do ABC and it’s important because …',
+											'E.g. Can you add ABC features? I want to do ABC and itâ€™s important because â€¦',
 											'elementor'
 										);
 __( 'Your Feedback', 'elementor' );
@@ -56,3 +56,4 @@ __( 'New', 'elementor' );
 __( 'Angie', 'elementor' );
 __( 'Learn More', 'elementor' );
 __( 'Try for free', 'elementor' );
+

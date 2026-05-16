@@ -1,1 +1,2 @@
-__( 'Edit with Elementor', 'elementor' );
+﻿__( 'Edit with Elementor', 'elementor' );
+

@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["tabs-preview-handler"],{
 
 /***/ "../modules/atomic-widgets/elements/atomic-tabs/handlers/atomic-tabs-preview-handler.js":
@@ -2076,7 +2076,7 @@ var store = module.exports = globalThis[SHARED] || defineGlobalProperty(SHARED, 
 (store.versions || (store.versions = [])).push({
   version: '3.46.0',
   mode: IS_PURE ? 'pure' : 'global',
-  copyright: '© 2014-2025 Denis Pushkarev (zloirock.ru), 2025 CoreJS Company (core-js.io)',
+  copyright: 'Â© 2014-2025 Denis Pushkarev (zloirock.ru), 2025 CoreJS Company (core-js.io)',
   license: 'https://github.com/zloirock/core-js/blob/v3.46.0/LICENSE',
   source: 'https://github.com/zloirock/core-js'
 });
@@ -2602,3 +2602,4 @@ module.exports = elementorV2.frontendHandlers;
 /******/ }
 ]);
 //# sourceMappingURL=tabs-preview-handler.js.map
+

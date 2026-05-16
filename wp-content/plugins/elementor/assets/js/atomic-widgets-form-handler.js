@@ -1,4 +1,4 @@
-(self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["atomic-widgets-form-handler"],{
+﻿(self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["atomic-widgets-form-handler"],{
 
 /***/ "../modules/atomic-widgets/assets/js/frontend/form-handlers.js":
 /*!*********************************************************************!*\
@@ -2630,7 +2630,7 @@ var store = module.exports = globalThis[SHARED] || defineGlobalProperty(SHARED, 
 (store.versions || (store.versions = [])).push({
   version: '3.46.0',
   mode: IS_PURE ? 'pure' : 'global',
-  copyright: '© 2014-2025 Denis Pushkarev (zloirock.ru), 2025 CoreJS Company (core-js.io)',
+  copyright: 'Â© 2014-2025 Denis Pushkarev (zloirock.ru), 2025 CoreJS Company (core-js.io)',
   license: 'https://github.com/zloirock/core-js/blob/v3.46.0/LICENSE',
   source: 'https://github.com/zloirock/core-js'
 });
@@ -17656,7 +17656,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
      * @returns {string} Returns the deburred string.
      * @example
      *
-     * _.deburr('déjà vu');
+     * _.deburr('dÃ©jÃ  vu');
      * // => 'deja vu'
      */
     function deburr(string) {
@@ -20646,3 +20646,4 @@ module.exports = elementorV2.frontendHandlers;
 /******/ }
 ]);
 //# sourceMappingURL=atomic-widgets-form-handler.js.map
+

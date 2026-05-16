@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/admin/floating-elements/layout.js":
@@ -786,3 +786,4 @@ document.addEventListener('DOMContentLoaded', function () {
 /******/ })()
 ;
 //# sourceMappingURL=floating-elements-modal.js.map
+

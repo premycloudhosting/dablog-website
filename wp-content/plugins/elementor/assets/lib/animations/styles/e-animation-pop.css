@@ -1,4 +1,4 @@
-@keyframes elementor-animation-pop {
+﻿@keyframes elementor-animation-pop {
 	50% {
 		transform: scale(1.2);
 	}
@@ -11,3 +11,5 @@
 	animation-timing-function: linear;
 	animation-iteration-count: 1;
 }
+
+

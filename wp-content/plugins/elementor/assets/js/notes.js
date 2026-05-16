@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../modules/notes/assets/js/e-component.js":
@@ -505,3 +505,4 @@ window.top.$e.components.register(new _eComponent.default());
 /******/ })()
 ;
 //# sourceMappingURL=notes.js.map
+

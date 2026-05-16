@@ -1,4 +1,4 @@
-__( 'Here\'s where you can fine-tune Elementor to your workflow. Disable elements you don\'t use for a cleaner interface, more focused creative experience, and improved performance.', 'elementor' );
+﻿__( 'Here\'s where you can fine-tune Elementor to your workflow. Disable elements you don\'t use for a cleaner interface, more focused creative experience, and improved performance.', 'elementor' );
 __( 'Learn More', 'elementor' );
 __( 'We saved your changes.', 'elementor' );
 __( 'No elements found.', 'elementor' );
@@ -43,3 +43,4 @@ __( 'Turning widgets off will hide them from the editor panel, and can potential
 __( 'If you\'re adding widgets back in, enjoy them!', 'elementor' );
 __( 'Cancel', 'elementor' );
 __( 'Save', 'elementor' );
+

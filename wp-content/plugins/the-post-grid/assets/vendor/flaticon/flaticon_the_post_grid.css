@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: "flaticon_the_post_grid";
     src: url("https://danielawele.link/wp-content/plugins/the-post-grid/assets/vendor/flaticon/flaticon_the_post_grid.ttf?dd949169929eab44f4d2133b01c9e438") format("truetype"),
 url("https://danielawele.link/wp-content/plugins/the-post-grid/assets/vendor/flaticon/flaticon_the_post_grid.woff?dd949169929eab44f4d2133b01c9e438") format("woff"),
@@ -92,3 +92,5 @@ url("https://danielawele.link/wp-content/plugins/the-post-grid/assets/vendor/fla
 .flaticon-linkedin:before {
     content: "\f118";
 }
+
+

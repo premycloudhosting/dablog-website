@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["youtube-handler"],{
 
 /***/ "../modules/atomic-widgets/elements/atomic-youtube/youtube-handler.js":
@@ -137,3 +137,4 @@ module.exports = elementorV2.frontendHandlers;
 /******/ }
 ]);
 //# sourceMappingURL=youtube-handler.js.map
+

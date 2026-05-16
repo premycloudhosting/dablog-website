@@ -1,4 +1,4 @@
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-elements_assets_js_editor_module_js"],{
+﻿(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["modules_nested-elements_assets_js_editor_module_js"],{
 
 /***/ "../modules/nested-elements/assets/js/editor/component.js":
 /*!****************************************************************!*\
@@ -1089,3 +1089,4 @@ module.exports = _superPropBase, module.exports.__esModule = true, module.export
 
 }]);
 //# sourceMappingURL=3d410a099008411bb011.bundle.js.map
+

@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../modules/container-converter/assets/js/editor/commands/convert-all.js":
@@ -1137,3 +1137,4 @@ new Module();
 /******/ })()
 ;
 //# sourceMappingURL=container-converter.js.map
+

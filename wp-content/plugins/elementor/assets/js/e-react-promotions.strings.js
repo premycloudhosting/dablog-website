@@ -1,1 +1,2 @@
-__( 'PRO', 'elementor' );
+﻿__( 'PRO', 'elementor' );
+

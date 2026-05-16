@@ -1,4 +1,4 @@
-{
+﻿{
   "icons": [
 	"address-book",
 	"address-card",
@@ -153,3 +153,4 @@
 	"window-restore"
 	]
 }
+

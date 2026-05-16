@@ -1,4 +1,4 @@
-@keyframes bounceInLeft {
+﻿@keyframes bounceInLeft {
 	60%,
 	75%,
 	90%,
@@ -27,3 +27,5 @@
 .bounceInLeft {
 	animation-name: bounceInLeft;
 }
+
+

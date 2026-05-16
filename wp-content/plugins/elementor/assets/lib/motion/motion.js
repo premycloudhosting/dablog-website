@@ -1,4 +1,4 @@
-(function (global, factory) {
+﻿(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define(['exports'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.Motion = {}));
@@ -186,7 +186,7 @@
 
     /*
       Bezier function generator
-      This has been modified from Gaëtan Renaudeau's BezierEasing
+      This has been modified from GaÃ«tan Renaudeau's BezierEasing
       https://github.com/gre/bezier-easing/blob/master/src/index.js
       https://github.com/gre/bezier-easing/blob/master/LICENSE
       
@@ -2555,8 +2555,8 @@
     /**
      * Check if a value is animatable. Examples:
      *
-     * ✅: 100, "100px", "#fff"
-     * ❌: "block", "url(2.jpg)"
+     * âœ…: 100, "100px", "#fff"
+     * âŒ: "block", "url(2.jpg)"
      * @param value
      *
      * @internal
@@ -7619,3 +7619,5 @@
     exports.wrap = wrap;
 
 }));
+
+

@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/utils/events.js":
@@ -457,3 +457,4 @@ elementorCommon.elements.$window.on('elementor:init-components', function () {
 /******/ })()
 ;
 //# sourceMappingURL=nested-elements.js.map
+

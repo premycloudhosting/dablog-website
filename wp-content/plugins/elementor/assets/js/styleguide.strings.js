@@ -1,4 +1,4 @@
-__( 'Show global settings', 'elementor' );
+﻿__( 'Show global settings', 'elementor' );
 __( 'Colors', 'elementor' );
 __( 'Fonts', 'elementor' );
 __( 'The five boxing wizards jump quickly.', 'elementor' );
@@ -8,3 +8,4 @@ __( 'Custom Fonts', 'elementor' );
 __( 'Global Colors', 'elementor' );
 __( 'System Colors', 'elementor' );
 __( 'Custom Colors', 'elementor' );
+

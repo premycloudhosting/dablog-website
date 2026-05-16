@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["video"],{
 
 /***/ "../assets/dev/js/frontend/handlers/video.js":
@@ -182,3 +182,4 @@ exports["default"] = Video;
 
 }]);
 //# sourceMappingURL=video.6e96510afa701d1f2ebc.bundle.js.map
+

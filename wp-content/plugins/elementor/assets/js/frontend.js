@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["frontend"],{
 
 /***/ "../assets/dev/js/frontend/documents-manager.js":
@@ -2439,3 +2439,4 @@ if (PolyfilledDOMExceptionPrototype.constructor !== PolyfilledDOMException) {
 /******/ }
 ]);
 //# sourceMappingURL=frontend.js.map
+

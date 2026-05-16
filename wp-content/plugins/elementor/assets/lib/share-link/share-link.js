@@ -1,4 +1,4 @@
-/**
+﻿/**
  * By Elementor Team
  */
 ( function( $ ) {
@@ -150,3 +150,5 @@
 		} );
 	};
 } )( jQuery );
+
+

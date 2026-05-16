@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /*!*****************************************************************************!*\
   !*** ../modules/design-system-sync/assets/js/design-system-sync-handler.js ***!
@@ -71,3 +71,4 @@
 /******/ })()
 ;
 //# sourceMappingURL=design-system-sync.js.map
+

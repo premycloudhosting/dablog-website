@@ -1,4 +1,4 @@
-/******/ (() => { // webpackBootstrap
+﻿/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "../assets/dev/js/admin/new-template/behaviors/lock-pro.js":
@@ -412,3 +412,4 @@ jQuery(function () {
 /******/ })()
 ;
 //# sourceMappingURL=new-template.js.map
+

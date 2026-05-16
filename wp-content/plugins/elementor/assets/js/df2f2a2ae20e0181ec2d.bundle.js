@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["node_modules_elementor_elementor-one-assets_locales_he-IL_send-feedback_json"],{
 
 /***/ "../node_modules/@elementor/elementor-one-assets/locales/he-IL/send-feedback.json":
@@ -7,8 +7,9 @@
   \****************************************************************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"dialog":{"title":"שתף את המשוב שלך","fieldTitlePlaceholder":"כותרת","fieldDescriptionPlaceholder":"ספר לנו מה חשבת","fieldSubjectPlaceholder":"בחר את נושא המשוב שלך","fieldProductPlaceholder":"בחר את המוצר","note":"אנו מעריכים את המשוב שלך! אנו בודקים את כל ההגשות, אך איננו יכולים להבטיח שכל הצעה תוביל לשינוי או עדכון.","subjects":{"leaveFeedback":"השאר משוב","reportBug":"דווח על באג","requestFeature":"בקש תכונה","shareThoughts":"שתף כל מחשבה אחרת"},"products":{"general":"כללי","editor":"עורך","accessibility":"נגישות","imageOptimization":"אופטימיזציית תמונה","emailDeliverability":"יכולת מסירת email","siteManagement":"Site Management"},"cancel":"ביטול","submit":"שלח","titleLengthError":"הכותרת חייבת להיות פחות מ-90 תווים","descriptionLengthError":"התיאור חייב להיות פחות מ-1024 תווים","alert":{"title":"זקוק לעזרה או נתקלת בבעיה?","button":"שלח בקשת תמיכה"}},"tooltipSuccess":"המשוב נשלח. תודה שעזרת לנו.","tooltipError":"משהו השתבש. אנא נסה לשלוח את המשוב שלך שוב."}');
+module.exports = /*#__PURE__*/JSON.parse('{"dialog":{"title":"×©×ª×£ ××ª ×”×ž×©×•×‘ ×©×œ×š","fieldTitlePlaceholder":"×›×•×ª×¨×ª","fieldDescriptionPlaceholder":"×¡×¤×¨ ×œ× ×• ×ž×” ×—×©×‘×ª","fieldSubjectPlaceholder":"×‘×—×¨ ××ª × ×•×©× ×”×ž×©×•×‘ ×©×œ×š","fieldProductPlaceholder":"×‘×—×¨ ××ª ×”×ž×•×¦×¨","note":"×× ×• ×ž×¢×¨×™×›×™× ××ª ×”×ž×©×•×‘ ×©×œ×š! ×× ×• ×‘×•×“×§×™× ××ª ×›×œ ×”×”×’×©×•×ª, ××š ××™× × ×• ×™×›×•×œ×™× ×œ×”×‘×˜×™×— ×©×›×œ ×”×¦×¢×” ×ª×•×‘×™×œ ×œ×©×™× ×•×™ ××• ×¢×“×›×•×Ÿ.","subjects":{"leaveFeedback":"×”×©××¨ ×ž×©×•×‘","reportBug":"×“×•×•×— ×¢×œ ×‘××’","requestFeature":"×‘×§×© ×ª×›×•× ×”","shareThoughts":"×©×ª×£ ×›×œ ×ž×—×©×‘×” ××—×¨×ª"},"products":{"general":"×›×œ×œ×™","editor":"×¢×•×¨×š","accessibility":"× ×’×™×©×•×ª","imageOptimization":"××•×¤×˜×™×ž×™×–×¦×™×™×ª ×ª×ž×•× ×”","emailDeliverability":"×™×›×•×œ×ª ×ž×¡×™×¨×ª email","siteManagement":"Site Management"},"cancel":"×‘×™×˜×•×œ","submit":"×©×œ×—","titleLengthError":"×”×›×•×ª×¨×ª ×—×™×™×‘×ª ×œ×”×™×•×ª ×¤×—×•×ª ×ž-90 ×ª×•×•×™×","descriptionLengthError":"×”×ª×™××•×¨ ×—×™×™×‘ ×œ×”×™×•×ª ×¤×—×•×ª ×ž-1024 ×ª×•×•×™×","alert":{"title":"×–×§×•×§ ×œ×¢×–×¨×” ××• × ×ª×§×œ×ª ×‘×‘×¢×™×”?","button":"×©×œ×— ×‘×§×©×ª ×ª×ž×™×›×”"}},"tooltipSuccess":"×”×ž×©×•×‘ × ×©×œ×—. ×ª×•×“×” ×©×¢×–×¨×ª ×œ× ×•.","tooltipError":"×ž×©×”×• ×”×©×ª×‘×©. ×× × × ×¡×” ×œ×©×œ×•×— ××ª ×”×ž×©×•×‘ ×©×œ×š ×©×•×‘."}');
 
 /***/ })
 
 }]);
+

@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["alert"],{
 
 /***/ "../assets/dev/js/frontend/handlers/alert.js":
@@ -42,3 +42,4 @@ exports["default"] = Alert;
 
 }]);
 //# sourceMappingURL=alert.fd509aa768e7b35a8e32.bundle.js.map
+

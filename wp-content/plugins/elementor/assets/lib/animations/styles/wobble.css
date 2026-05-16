@@ -1,4 +1,4 @@
-@keyframes wobble {
+﻿@keyframes wobble {
 	from,
 	to {
 		transform: none;
@@ -22,3 +22,5 @@
 .wobble {
 	animation-name: wobble;
 }
+
+

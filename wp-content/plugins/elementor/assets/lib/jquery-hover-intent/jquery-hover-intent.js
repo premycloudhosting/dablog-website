@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Based on tristen hoverintent plugin - https://github.com/tristen/hoverintent
  */
 
@@ -110,3 +110,4 @@
 	};
 
 })( jQuery );
+

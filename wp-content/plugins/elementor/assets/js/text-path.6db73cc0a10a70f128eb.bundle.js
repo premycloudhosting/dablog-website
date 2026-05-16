@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["text-path"],{
 
 /***/ "../modules/shapes/assets/js/frontend/handlers/text-path.js":
@@ -283,3 +283,4 @@ exports["default"] = TextPathHandler;
 
 }]);
 //# sourceMappingURL=text-path.6db73cc0a10a70f128eb.bundle.js.map
+

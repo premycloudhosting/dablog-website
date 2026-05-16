@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["node_modules_elementor_elementor-one-assets_locales_nl_send-feedback_json"],{
 
 /***/ "../node_modules/@elementor/elementor-one-assets/locales/nl/send-feedback.json":
@@ -12,3 +12,4 @@ module.exports = /*#__PURE__*/JSON.parse('{"dialog":{"title":"Deel uw feedback",
 /***/ })
 
 }]);
+

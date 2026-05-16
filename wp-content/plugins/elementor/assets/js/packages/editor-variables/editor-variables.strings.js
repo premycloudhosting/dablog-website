@@ -1,4 +1,4 @@
-__( 'Unexpected response from server', 'elementor' );
+﻿__( 'Unexpected response from server', 'elementor' );
 __( 'Unexpected response from server', 'elementor' );
 __( 'Stop syncing to Global Colors', 'elementor' );
 __( 'Sync to Global Colors', 'elementor' );
@@ -128,3 +128,4 @@ __( 'Missing variable', 'elementor' );
 __( 'changed', 'elementor' );
 __( 'deleted', 'elementor' );
 __( 'Unlink variable', 'elementor' );
+

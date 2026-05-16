@@ -1,4 +1,4 @@
-#wp-admin-bar-elementor_edit_page > .ab-item::before {
+﻿#wp-admin-bar-elementor_edit_page > .ab-item::before {
   content: "\e813";
   font-family: eicons;
   inset-block-start: 3px;
@@ -32,3 +32,4 @@
   font-style: normal;
 }
 /*# sourceMappingURL=admin-bar.css.map */
+
