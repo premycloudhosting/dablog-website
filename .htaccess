@@ -1,4 +1,5 @@
 ErrorDocument 404 /404_not_found/index.html
+Redirect 302 /favicon.ico https://danielawele.link/wp-content/uploads/2025/08/cropped-pexels-brett-sayles-5073493-32x32.jpg
 
 <If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/elementor/assets/lib/eicons/fonts/eicons\.ttf#i">
   ForceType "application/font-sfnt"
@@ -24,12 +25,12 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-json/#i">
-  ForceType "application/json; charset=UTF-8"
+<If "%{REQUEST_URI} =~ m#^/feed#i">
+  ForceType "application/rss+xml; charset=UTF-8"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\-index\.xsl#i">
-  ForceType "application/xml; charset=UTF-8"
+<If "%{REQUEST_URI} =~ m#^/wp\-json/wp/v2/pages/351#i">
+  ForceType "application/json; charset=UTF-8"
 </If>
 
 <If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-brands\-400\.ttf#i">
@@ -38,6 +39,10 @@ ErrorDocument 404 /404_not_found/index.html
 
 <If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-regular\-400\.ttf#i">
   ForceType "application/font-sfnt"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\.xsl#i">
+  ForceType "application/xml; charset=UTF-8"
 </If>
 
 <If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/the\-post\-grid/assets/vendor/font\-awesome/webfonts/fa\-solid\-900\.ttf#i">
@@ -60,11 +65,11 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-solid\-900\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-solid\-900\.ttf#i">
+<If "%{REQUEST_URI} =~ m#^/wp\-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa\-v4compatibility\.ttf#i">
   ForceType "application/font-sfnt"
 </If>
 
@@ -72,6 +77,18 @@ ErrorDocument 404 /404_not_found/index.html
   ForceType "application/font-sfnt"
 </If>
 
-<If "%{REQUEST_URI} =~ m#^/wp\-sitemap\.xsl#i">
-  ForceType "application/xml; charset=UTF-8"
+<If "%{REQUEST_URI} =~ m#^/wp\-json/wp/v2/categories/6#i">
+  ForceType "application/json; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-json/wp/v2/posts/1513#i">
+  ForceType "application/json; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-json/wp/v2/posts/851#i">
+  ForceType "application/json; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-json/wp/v2/posts/766#i">
+  ForceType "application/json; charset=UTF-8"
 </If>
